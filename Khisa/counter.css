@@ -1,0 +1,35 @@
+body{
+    display: block;
+    text-align: center;
+    margin: 10%;
+}
+
+.buttons{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+    transition:  background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(97, 95, 235);
+}
+
+
+
+#countLabel{
+    font-weight: bolder;
+    font-size: 10em;
+    font-family: Helvetica;
+}
+
+#Box{
+    display: block;
+    border: solid 5px;
+    padding: 50px;
+    background-color: rgb(130, 141, 150);
+    width:300px;
+    text-align: center;
+
+}
